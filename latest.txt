@@ -1,0 +1,7 @@
+metaflow
+pymongo
+gensim
+Flask
+Gunicorn
+duckdb
+pandas
