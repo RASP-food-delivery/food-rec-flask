@@ -1,0 +1,4 @@
+metaflow
+pymongo
+gensim
+flask
