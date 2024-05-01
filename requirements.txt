@@ -1,5 +1,6 @@
 duckdb
 pandas
+scipy==1.10.1
 Flask
 gensim
 metaflow
