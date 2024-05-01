@@ -1,0 +1,6 @@
+[MFLOG|0|2024-05-01T14:54:25.216718Z|runtime|69c3c5f3-0dc8-4b08-8507-be4d1e3ffaff]Training with hypers {"min_count": 5, "epochs": 60, "vector_size": 48, "window": 10, "ns_exponent": 0.75} is completed!
+[MFLOG|0|2024-05-01T14:54:25.217424Z|runtime|34f66367-7a5e-46cc-852e-fff8e1d2aecf]Vector space size: 22
+[MFLOG|0|2024-05-01T14:54:25.217810Z|runtime|a4cef052-5392-4969-90dd-5aac19e5e1b3]Example track: '65b233c52f7db93a6cb88e85|||blueberry shake'
+[MFLOG|0|2024-05-01T14:54:25.218118Z|runtime|666bbc31-ad88-4fa0-bd81-24ff33d5df8c]Test vector for '65b233c52f7db93a6cb88e85|||blueberry shake': [-0.01374244 -0.03342226  0.00429554  0.01837755  0.02363705]
+[MFLOG|0|2024-05-01T14:54:25.322563Z|runtime|d1ab57f6-bc7e-4d76-8776-cbb643998459]Similar songs to '65b233c52f7db93a6cb88e85|||blueberry shake': [('65b233c52f7db93a6cb88e85|||Maggi', 0.8414715528488159), ('65b233c52f7db93a6cb88e85|||banana milkshake', 0.8077663779258728), ('65b114ad99d14a162a884940|||Peanut Butter Sandwich', 0.7648956179618835)]
+[MFLOG|0|2024-05-01T14:54:25.346740Z|runtime|516a9c4e-cbe5-4d67-87d4-f49736d1d426]Hit Rate@50 is: 0.7

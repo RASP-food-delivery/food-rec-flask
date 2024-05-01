@@ -1,0 +1,2 @@
+[MFLOG|0|2024-05-01T14:54:26.489847Z|runtime|e1a6bbe3-48cf-4ca6-ac19-6e1800280350]Current result map: {'{"min_count": 5, "epochs": 60, "vector_size": 48, "window": 10, "ns_exponent": 0.75}': 0.7, '{"min_count": 10, "epochs": 60, "vector_size": 48, "window": 10, "ns_exponent": 0.75}': 0.15}
+[MFLOG|0|2024-05-01T14:54:27.490119Z|runtime|71994307-ce11-4bab-95ab-c03c713747f2]The best validation score is for model: {"min_count": 5, "epochs": 60, "vector_size": 48, "window": 10, "ns_exponent": 0.75}, 0.7
