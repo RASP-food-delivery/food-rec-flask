@@ -6,3 +6,4 @@ gensim
 metaflow
 numpy
 pymongo
+Gunicorn
