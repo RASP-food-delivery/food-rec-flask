@@ -1,0 +1,13 @@
+[MFLOG|0|2024-05-01T16:31:55.287955Z|runtime|b46c7bc8-b56c-4019-9bf8-0c98cb9e2692](0, '65ce5a8cd6e9420034b7f490', '65b61c5aee9cc30cf8584569', 'Dosa', 100, '65ce5a8cd6e9420034b7f490-100', '65b61c5aee9cc30cf8584569|||Dosa')
+[MFLOG|0|2024-05-01T16:31:55.297569Z|runtime|b88f3896-8e0e-439d-b39b-411e6673b52a]# of row_id 500
+[MFLOG|0|2024-05-01T16:31:55.302973Z|runtime|cebe739e-9bac-425d-961e-cb7cb91ed123]# of user_id 33
+[MFLOG|0|2024-05-01T16:31:55.305918Z|runtime|46ecbd42-6467-4b05-b8df-5fb366c452cf]# of item_id 25
+[MFLOG|0|2024-05-01T16:31:55.307694Z|runtime|08b232fa-b3ea-4b2d-99cf-667f0b517f5c]# of order_id 151
+[MFLOG|0|2024-05-01T16:31:55.310588Z|runtime|56cb966d-80a7-43c6-85de-7a3e6b81ea66]# of res_id 5
+[MFLOG|0|2024-05-01T16:32:29.135595Z|runtime|7e128c5c-060a-45c3-9f37-a857853b7359]# rows: 97
+[MFLOG|0|2024-05-01T16:32:29.137304Z|runtime|f6e78a1a-b896-49a6-b3ca-38a47c30d1a0][101, array(['65b61b4cee9cc30cf8584568', '65b61b4cee9cc30cf8584568',
+[MFLOG|0|2024-05-01T16:32:29.578245Z|runtime|503773c3-6017-4376-b8bb-9b7987feb03c]       '65b61b4cee9cc30cf8584568'], dtype=object), array(['65b61b4cee9cc30cf8584568|||akhiri pasta',
+[MFLOG|0|2024-05-01T16:32:29.578807Z|runtime|8d20793c-daea-4177-b3f7-5ab1c3edc4c7]       '65b61b4cee9cc30cf8584568|||akhiri pasta',
+[MFLOG|0|2024-05-01T16:32:29.579140Z|runtime|ab563402-20e1-47e7-a874-ed4e9914b717]       '65b61b4cee9cc30cf8584568|||akhiri pasta'], dtype=object), array(['65b61b4cee9cc30cf8584568|||akhiri pasta',
+[MFLOG|0|2024-05-01T16:32:29.579446Z|runtime|e39b1c4c-5dd5-4083-844b-42d61ce50b99]       '65b61b4cee9cc30cf8584568|||akhiri pasta'], dtype=object), '65b61b4cee9cc30cf8584568|||akhiri pasta']
+[MFLOG|0|2024-05-01T16:32:29.579747Z|runtime|5481339e-247a-4159-89d8-c13e5263322e]# testing rows: 10

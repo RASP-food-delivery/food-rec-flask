@@ -1,0 +1,7 @@
+[MFLOG|0|2024-05-01T16:32:49.002867Z|runtime|f2945403-e8a9-42c9-916f-251b1bda21f1]Training with hypers {"min_count": 5, "epochs": 60, "vector_size": 48, "window": 10, "ns_exponent": 0.75} is completed!
+[MFLOG|0|2024-05-01T16:32:49.041500Z|runtime|95529514-5a91-4def-8dc9-e08bcb7e3a1e]Vector space size: 22
+[MFLOG|0|2024-05-01T16:32:49.042570Z|runtime|0020e09f-5d74-4f99-be85-cb3037a6b21a]Example track: '65b114ad99d14a162a884940|||Cheese Maggi'
+[MFLOG|0|2024-05-01T16:32:49.043237Z|runtime|f6e4bcea-71f1-4604-8da4-4ecc7ef994b0]Test vector for '65b114ad99d14a162a884940|||Cheese Maggi': [-1.34462183e-02  1.10315485e-02  2.51711681e-02  8.51057266e-05
+[MFLOG|0|2024-05-01T16:32:49.091994Z|runtime|3037f650-7316-43fd-9a0d-e5e1a5a6ee12] -6.45504007e-03]
+[MFLOG|0|2024-05-01T16:32:49.093039Z|runtime|a6fb0120-63e9-4591-b366-556e6773179e]Similar songs to '65b114ad99d14a162a884940|||Cheese Maggi': [('65b114ad99d14a162a884940|||Maggi', 0.6033978462219238), ('65b61c5aee9cc30cf8584569|||Choclate Shake', 0.5847623348236084), ('65b233c52f7db93a6cb88e85|||red sauce pasta', 0.5800553560256958)]
+[MFLOG|0|2024-05-01T16:32:49.345971Z|runtime|ca7d6186-ae34-495a-936e-ec378aab8169]Hit Rate@50 is: 0.7

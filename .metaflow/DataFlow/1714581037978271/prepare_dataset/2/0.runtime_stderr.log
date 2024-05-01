@@ -1,0 +1,30 @@
+[MFLOG|0|2024-05-01T16:30:38.894075Z|runtime|1809c781-2823-4f2f-95c2-9b0a91c79746]<flow DataFlow step prepare_dataset> failed:
+[MFLOG|0|2024-05-01T16:30:38.897904Z|runtime|ce6aedca-3f00-4dfe-8726-6e39951811e4]    Internal error
+[MFLOG|0|2024-05-01T16:30:38.898885Z|runtime|1f10f5b9-6eaa-445a-ab7f-13912566344c]Traceback (most recent call last):
+[MFLOG|0|2024-05-01T16:30:38.899011Z|runtime|fd9027f0-4f7b-41c2-ad71-7c29d7dc4f67]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/cli.py", line 1177, in main
+[MFLOG|0|2024-05-01T16:30:38.899101Z|runtime|435f34b5-e6d5-4235-b262-f1ec30f25c3e]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-05-01T16:30:38.899180Z|runtime|23fc23f7-9d43-4c40-b942-cda5582b03cb]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-05-01T16:30:38.899257Z|runtime|618d6ea8-3618-4f45-b6f5-3d3b136d7d46]    return func(args, kwargs)
+[MFLOG|0|2024-05-01T16:30:38.899330Z|runtime|5a77ae64-9204-4ede-b234-a7de82a95105]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-05-01T16:30:38.899407Z|runtime|8b165f57-9117-4ccc-a288-115cde7a589b]    return self.main(args, kwargs)
+[MFLOG|0|2024-05-01T16:30:38.943393Z|runtime|c1cd852d-8f6c-45b8-a369-1a9047bf6620]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-05-01T16:30:38.943578Z|runtime|72a08d34-6237-4f66-b663-ecd38ca5e21d]    rv = self.invoke(ctx)
+[MFLOG|0|2024-05-01T16:30:38.943670Z|runtime|4b7e20d7-b852-4ea6-8ffd-bb8f787d0230]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-05-01T16:30:38.943751Z|runtime|31a8eb35-9a2e-46ce-a030-ce0668bae39f]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-05-01T16:30:38.943829Z|runtime|7f219c35-c4d2-4c15-ba2f-de06b3f6977c]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-05-01T16:30:38.943907Z|runtime|839dd993-e004-4f37-aec7-3bac9790b17e]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-05-01T16:30:38.943981Z|runtime|648871d3-e425-44cd-9dc3-f2124eaf3c4c]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-05-01T16:30:38.944078Z|runtime|37fcf597-b421-43c2-8e52-75329c6e8dc4]    return callback(args, kwargs)
+[MFLOG|0|2024-05-01T16:30:38.944155Z|runtime|6c743112-913b-4ef2-ac23-d31985de4350]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-05-01T16:30:38.944233Z|runtime|0de52f2a-2684-4349-b55d-caa30343b115]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-05-01T16:30:38.944311Z|runtime|932dc05d-4daf-40b3-bd09-0a5bcd68c4b2]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/cli.py", line 572, in step
+[MFLOG|0|2024-05-01T16:30:38.944389Z|runtime|96312f26-7311-4882-b0f0-e1f8796fa5c2]    task.run_step(
+[MFLOG|0|2024-05-01T16:30:38.944466Z|runtime|8bf6a6e4-3d5f-465d-9b21-287c4f7aca0c]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/task.py", line 619, in run_step
+[MFLOG|0|2024-05-01T16:30:38.944542Z|runtime|8d506749-1108-45a9-988b-7ddb3119f84d]    self._exec_step_function(step_func)
+[MFLOG|0|2024-05-01T16:30:38.944618Z|runtime|9dccfbd7-e573-4dd5-b525-21c5eae38cdc]  File "/home/shashwat/.local/lib/python3.10/site-packages/metaflow/task.py", line 70, in _exec_step_function
+[MFLOG|0|2024-05-01T16:30:38.944693Z|runtime|ff813e9e-1868-408d-8aa0-12072223d615]    step_function()
+[MFLOG|0|2024-05-01T16:30:38.944768Z|runtime|026b6c3e-ac80-40c4-a761-37efc1663169]  File "/home/shashwat/Desktop/flaskrec/data_flow.py", line 33, in prepare_dataset
+[MFLOG|0|2024-05-01T16:30:38.944848Z|runtime|e3bb2dcd-af3e-4646-b669-948bf1046fef]    import duckdb
+[MFLOG|0|2024-05-01T16:30:38.944922Z|runtime|8d1f8202-f62e-4dfc-9aba-2541098a49d1]ModuleNotFoundError: No module named 'duckdb'
+[MFLOG|0|2024-05-01T16:30:38.944998Z|runtime|733befea-9e49-48e5-81f9-13d888712f83]
+[MFLOG|0|2024-05-01T16:30:38.945299Z|runtime|ded3f2a2-43a4-48e7-9294-961f415bb750]Task failed.
