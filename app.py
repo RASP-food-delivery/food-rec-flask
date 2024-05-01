@@ -3,12 +3,13 @@
 from flask import Flask, request, jsonify
 
 import sys
-from metaflow import Flow
+from metaflow import Flow, namespace, get_namespace
 from random import choice
 import json
 from pymongo import MongoClient
 
-
+print(get_namespace())
+namespace(None)
 cluster = MongoClient("mongodb+srv://notshashwat:ZvO4miPdln1uSKsg@cluster0.ii27b7a.mongodb.net/food-delivery?retryWrites=true&w=majority")
 
 db = cluster["food-delivery"]
@@ -44,7 +45,7 @@ app = Flask(__name__)
 @app.route('/recommend', methods=["POST"])
 def recommend():
 	print(request)
-	items = None
+	items = json.dumps(["65b233c52f7db93a6cb88e85", "65b114ad99d14a162a884940", "65b233c52f7db93a6cb88e85", "65b233c52f7db93a6cb88e85","65b61c5aee9cc30cf8584569", "65b114ad99d14a162a884940", "65b61c5aee9cc30cf8584569", "65b233c52f7db93a6cb88e85","65b114ad99d14a162a884940", "65b114ad99d14a162a884940"])
 	try : 
 		userId = request.args.get("userId")
 		# print("userid", userId)
