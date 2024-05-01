@@ -48,19 +48,20 @@ def recommend():
 	items = json.dumps(["65b233c52f7db93a6cb88e85", "65b114ad99d14a162a884940", "65b233c52f7db93a6cb88e85", "65b233c52f7db93a6cb88e85","65b61c5aee9cc30cf8584569", "65b114ad99d14a162a884940", "65b61c5aee9cc30cf8584569", "65b233c52f7db93a6cb88e85","65b114ad99d14a162a884940", "65b114ad99d14a162a884940"])
 	try : 
 		userId = request.args.get("userId")
-		# print("userid", userId)
+		print("userid", userId)
 		temp = orders.find({"userID" : userId}).sort({"_id":-1})
-		# print(temp[0])
+		print(temp[0])
 		restId = temp[0]["restID"]
 		item_name = temp[0]["items"][0]["orderid"]
 		concat_str = restId + "|||" + item_name
-		# print(concat_str)
+		print(concat_str)
 		recs = get_recs( concat_str, 10)
+		print(recs)
 		# json_recs = json.dumps(recs)
 		items = json.dumps([rec.split("|||")[0] for rec in recs])
 		
 	except Exception as e: 
-		print(e)
+		print("error",e)
 	return items
             
 
