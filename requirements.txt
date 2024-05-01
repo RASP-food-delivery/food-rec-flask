@@ -1,4 +1,5 @@
 metaflow
 pymongo
 gensim
-flask
+Flask
+Gunicorn
